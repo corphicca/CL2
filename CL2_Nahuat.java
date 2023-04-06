@@ -12,7 +12,7 @@ Cidayin Nahuat
 */
 import java.util.Scanner;
 import java.util.Random;
-
+//update
 public class CL2_Nahuat {
     public class ConsoleColors {
         //different color to display in terminal

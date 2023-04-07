@@ -73,9 +73,7 @@ public class CL2_Nahuat {
 
             //if attempts is greater than 0 display number of attempts remaining 
             if(attempts > 0){
-                System.out.println("You have " + ConsoleColors.YELLOW + attempts); 
-                System.out.print(ConsoleColors.RESET);
-                System.out.print(" attempts remaining");
+                System.out.println("You have " + ConsoleColors.YELLOW + attempts + ConsoleColors.RESET + " attempts remaining");
             
             } else {
                 System.out.println("You have unlimited attempts remaining");
@@ -172,9 +170,7 @@ public class CL2_Nahuat {
         Scanner keyboardScanner = new Scanner(System.in); 
 
         //Prompt user to pick a number for the size of the board. Number needs to be even and not <= 2 
-        System.out.println("Welcome to "); 
-        System.out.print(ConsoleColors.PURPLE + "Match A Number Game! ");
-        System.out.print(ConsoleColors.RESET); 
+        System.out.println("Welcome to " + ConsoleColors.PURPLE + "Match A Number Game!" + ConsoleColors.RESET); 
         System.out.println("player needs to pick " + ConsoleColors.CYAN + "two cells " + ConsoleColors.RESET + "in hopes of matching it with its " + ConsoleColors.CYAN + "pair" +ConsoleColors.RESET);
         System.out.println("Pick an " + ConsoleColors.RED +  "even number greater than two " + ConsoleColors.RESET + "for the size of the board");
         int size = keyboardScanner.nextInt();
